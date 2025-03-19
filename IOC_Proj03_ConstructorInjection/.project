@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>IOC_Proj02_DependencyInjection_Assignment</name>
+	<name>IOC_Proj03_ConstructorInjection</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1742403888756</id>
+			<id>1742403888765</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
