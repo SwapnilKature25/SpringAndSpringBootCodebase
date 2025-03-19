@@ -1,0 +1,14 @@
+package com.nit.main;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class DependencyInjectionTest {
+	public static void main(String[] args) {
+		FileSystemXmlApplicationContext ctx = 
+				new FileSystemXmlApplicationContext("com/nit/cfgs/applicationContext.xml");
+		
+		
+		
+		
+	}
+}

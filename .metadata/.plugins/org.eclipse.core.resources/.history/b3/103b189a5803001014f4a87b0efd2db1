@@ -1,0 +1,11 @@
+package com.nit.main;
+
+
+
+public class DependencyInjectionTest {
+	public static void main(String[] args) {
+		//creste IOC container
+		FileSystemXmlApplicationContext ctx = 
+				new FileSystemXmlApplicationContext("");
+	}
+}

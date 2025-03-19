@@ -1,0 +1,13 @@
+package com.nit.sbeans;
+
+import java.time.LocalTime;
+
+public class WishMessageGenerator {
+	// Has-A property
+	private LocalTime time;
+	
+	//setter method for setter injection 
+	
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOC_Proj01_DependencyInjection/src/com/nit/cfgs/applicationContext.xml&apos; to &apos;applicationcontext.xml&apos;" description="Rename resource &apos;applicationContext.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/nit/cfgs/applicationContext.xml" name="applicationcontext.xml" stamp="1742305992467" updateReferences="true"/>
+</session>
