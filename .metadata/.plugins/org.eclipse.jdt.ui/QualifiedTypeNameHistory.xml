@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.nit.sbeans.A"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.B"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.SeasonFinder"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
