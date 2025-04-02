@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="com.nit.sbeans.B"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.SeasonFinder"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.nit.comp.Demo"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

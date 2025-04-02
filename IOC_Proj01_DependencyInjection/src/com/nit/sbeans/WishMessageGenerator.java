@@ -6,7 +6,7 @@ import java.time.LocalTime;
 public class WishMessageGenerator {
 	// Has-A property
 	private LocalTime time;
-//	private LocalDate date;
+	private LocalDate date;
 	
 	
 	//setter method for setter injection 
@@ -16,12 +16,11 @@ public class WishMessageGenerator {
 		this.time = time;
 	}
 	
-//	public void  setDate(LocalDate date)
-//	{
-//		System.out.println("WishMessageGenerator.setDate()");
-//		this.date = date;
-//		
-//	}
+	public void  setDate(LocalDate date)
+	{
+		System.out.println("WishMessageGenerator.setDate()");
+		this.date = date;	
+	}
 	
 	//b.method
 	

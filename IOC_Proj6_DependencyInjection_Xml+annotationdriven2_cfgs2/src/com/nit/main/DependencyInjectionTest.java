@@ -9,7 +9,7 @@ public class DependencyInjectionTest {
 	public static void main(String[] args) {
 		
 		FileSystemXmlApplicationContext ctx = 
-				new FileSystemXmlApplicationContext("C:\\Users\\swapn\\01CJ\\Spring_SpringBoot_Projects\\IOC_Proj5_DependencyInjection_Xml+annotationdriven2_cfgs2\\src\\com\\nit\\cfgs\\applicationcontext.xml");
+				new FileSystemXmlApplicationContext("C:\\Users\\swapn\\01CJ\\Spring_SpringBoot_Projects\\IOC_Proj6_DependencyInjection_Xml+annotationdriven2_cfgs2\\src\\com\\nit\\cfgs\\applicationcontext.xml");
 
 		Object obj = ctx.getBean("sf");
 		WeekDayFinder sf =(WeekDayFinder) obj;

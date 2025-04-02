@@ -5,7 +5,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="com/nit/cfgs/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/com/nit/cfgs"/>
 	<classpathentry kind="lib" path="C:/Users/swapn/Desktop/Spring Jars/spring-aop-6.2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/swapn/Desktop/Spring Jars/spring-beans-6.2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/swapn/Desktop/Spring Jars/spring-context-6.2.4.jar"/>
