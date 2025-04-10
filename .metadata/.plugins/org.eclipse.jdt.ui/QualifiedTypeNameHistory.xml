@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.nit.comp.Demo"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="com.nit.ston.Printer"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.WishMessageGenerator"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.nit.cfgs.AppConfig"/>
@@ -14,4 +13,9 @@
     <fullyQualifiedTypeName name="com.nit.comps.Bike"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.nit.factory.FlipkartFactory"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.Flipkart"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.Vehicle"/>
+    <fullyQualifiedTypeName name="org.springframework.format.Printer"/>
+    <fullyQualifiedTypeName name="com.nit.config.AppConfig"/>
+    <fullyQualifiedTypeName name="com.nit.ston.Printer"/>
 </qualifiedTypeNameHistroy>

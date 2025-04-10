@@ -4,11 +4,12 @@ import java.time.LocalDateTime;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.nit.config.AppConfig;
 import com.nit.sbeans.WishMessageGenerator;
 
 // DependencyInjectionTest.java  (main class)
 
-public class DependencyInjectionTest {
+public class SingletonTest {
 
 	public static void main(String[] args) {
 		
