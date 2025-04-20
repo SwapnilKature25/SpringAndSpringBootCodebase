@@ -16,6 +16,7 @@
     <fullyQualifiedTypeName name="com.nit.sbeans.Flipkart"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.Vehicle"/>
     <fullyQualifiedTypeName name="org.springframework.format.Printer"/>
-    <fullyQualifiedTypeName name="com.nit.config.AppConfig"/>
     <fullyQualifiedTypeName name="com.nit.ston.Printer"/>
+    <fullyQualifiedTypeName name="com.nit.config.AppConfig"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.VotingEligibilityCheck"/>
 </qualifiedTypeNameHistroy>
