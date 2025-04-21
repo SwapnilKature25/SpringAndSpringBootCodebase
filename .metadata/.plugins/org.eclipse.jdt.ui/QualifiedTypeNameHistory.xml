@@ -2,10 +2,8 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.nit.sbeans.A"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.B"/>
-    <fullyQualifiedTypeName name="com.nit.sbeans.SeasonFinder"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.nit.comp.Demo"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.WishMessageGenerator"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.nit.cfgs.AppConfig"/>
@@ -19,4 +17,8 @@
     <fullyQualifiedTypeName name="com.nit.ston.Printer"/>
     <fullyQualifiedTypeName name="com.nit.config.AppConfig"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.VotingEligibilityCheck"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.SeasonFinder"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.DayFinder"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.recovery.ResilientSyslogOutputStream"/>
 </qualifiedTypeNameHistroy>
