@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.nit.factory.FlipkartFactory"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.Flipkart"/>
-    <fullyQualifiedTypeName name="com.nit.sbeans.Vehicle"/>
     <fullyQualifiedTypeName name="org.springframework.format.Printer"/>
     <fullyQualifiedTypeName name="com.nit.ston.Printer"/>
     <fullyQualifiedTypeName name="com.nit.config.AppConfig"/>
@@ -21,4 +20,5 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="com.nit.sbeans.DayFinder"/>
     <fullyQualifiedTypeName name="ch.qos.logback.core.recovery.ResilientSyslogOutputStream"/>
+    <fullyQualifiedTypeName name="com.nit.sbeans.Vehicle"/>
 </qualifiedTypeNameHistroy>

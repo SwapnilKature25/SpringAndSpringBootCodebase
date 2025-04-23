@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "cc.cjava.fee",
+    "type": "java.lang.String",
+    "description": "A description for 'cc.cjava.fee'"
+  },
+  {
+    "name": "cc.oracle.fee",
+    "type": "java.lang.String",
+    "description": "A description for 'cc.oracle.fee'"
+  },
+  {
+    "name": "inst.name",
+    "type": "java.lang.String",
+    "description": "A description for 'inst.name'"
+  },
+  {
+    "name": "cc.spmbs.fee",
+    "type": "java.lang.String",
+    "description": "A description for 'cc.spmbs.fee'"
+  },
+  {
+    "name": "cc.testing.fee",
+    "type": "java.lang.String",
+    "description": "A description for 'cc.testing.fee'"
+  }
+]}{
+    "name": "cc.ajava.fee",
+    "type": "java.lang.String",
+    "description": "A description for 'cc.ajava.fee'"
+  }
+]}
