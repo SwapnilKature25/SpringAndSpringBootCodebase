@@ -23,10 +23,10 @@
     "name": "cc.testing.fee",
     "type": "java.lang.String",
     "description": "A description for 'cc.testing.fee'"
-  }
-]}{
-    "name": "cc.ajava.fee",
+  },
+  {
+    "name": "cc.angular.fee",
     "type": "java.lang.String",
-    "description": "A description for 'cc.ajava.fee'"
+    "description": "A description for 'cc.angular.fee'"
   }
 ]}

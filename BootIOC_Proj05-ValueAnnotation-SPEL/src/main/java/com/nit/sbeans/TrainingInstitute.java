@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.ToString;
 
 @Component("inst")
-//@Data  or  @ToString
+//@Data  // or  @ToString
 @ToString
 public class TrainingInstitute {
 	// injecting random value

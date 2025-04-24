@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "per.data.mail",
+    "type": "java.lang.String",
+    "description": "A description for 'per.data.mail'"
+  },
+  {
+    "name": "per.info.addrs",
+    "type": "java.lang.String",
+    "description": "Holds person addrs"
+  },
+  {
+    "name": "per.info.idDetails.voterId",
+    "type": "java.lang.String",
+    "description": "A description for 'per.info.idDetails.voterId'"
+  }
+]}
