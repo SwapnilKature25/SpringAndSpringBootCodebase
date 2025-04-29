@@ -17,7 +17,7 @@ import com.nit.model.Employee;
 @Repository("empDAO")
 public class EmployeeDAOImpl implements IEmployeeDAO {
 
-	private static final String GET_EMPS_BY_DESG="Select empno,ename,job,sal,deptno from Emp where Job IN(?,?,?) order by job";
+	private static final String GET_EMPS_BY_DESG="Select empno,ename,job,sal,deptno from SpringEmp where Job IN(?,?,?) order by job";
 	
 	@Autowired
 	private DataSource ds;

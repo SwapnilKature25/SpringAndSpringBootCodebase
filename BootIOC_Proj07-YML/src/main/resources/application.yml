@@ -1,0 +1,49 @@
+spring:                     # 0 spaces (root level key)
+  # custome yml fileconfiguration
+  config:
+    import: info1.yml
+  application:              # 2 spaces (child of spring)
+    name: BootIOC_Proj07-YML # 4 spaces (child of application)
+
+#Company information
+comp:                       # 0 spaces (root level key)
+  info:                     # 2 spaces (child of comp)
+    cid: 1001               # 4 spaces (child of info)
+    cname: "HCL"
+    location: "hyd"
+    pincode: 500056
+
+# maggedo website  -> to convert yml to properties and vice versa
+ 
+# Personal Details
+per:
+  info:
+    id: 1001
+    name: "raja"
+    addrs: "hyd"
+    email: "raja@gmail.com"
+    mobileNo: 99999999
+    favColors:
+      - red
+      - green
+      - cyan
+    friends:
+      - ramesh
+      - suresh
+      - kiran
+    phoneNumbers:       # index syntax
+      - 9989899
+      - 8898989
+      - 9090890
+    phone-numbers: [11111, 33333, 66666]        #inline syntax
+    idDetails:
+      aadhar: 454545
+      voterid: 4567654345
+      panNo: 56445654
+    company:
+      cid: 1001
+      cname: "HCL"
+      location: "Delhi"
+      pincode: 500052
+      
+    

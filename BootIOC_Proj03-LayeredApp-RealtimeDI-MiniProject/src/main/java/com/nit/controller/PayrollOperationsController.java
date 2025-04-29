@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import com.nit.model.Employee;
 import com.nit.service.IEmployeeManagementService;
 
-@Controller
+@Controller("payroll")
 public class PayrollOperationsController {
 	 
 	@Autowired
