@@ -32,11 +32,18 @@ public class EmployeeMgmtServiceImpl implements IEmployeeManagementService {
 		// calculate gross salary and net salary (b.logic)
 		list.forEach(emp -> {
 			emp.setGrossSalary(emp.getSalary()+(emp.getSalary()*0.4f));
-			emp.setNetSalary(emp.getGrossSalary()- (emp.getGrossSalary()*0.2));
+			emp.setNetSalary(emp.getGrossSalary()-(emp.getGrossSalary()*0.2));
 		});
 		
 		return list;
 		
+	}
+
+	@Override
+	public String registerEmployee(Employee emp) throws Exception {
+		// use dao
+		int count = empDao.insertEmployee(emp);
+		return count==0 ? "Employee is not registered" : "Employee is registered";
 	}
 
 

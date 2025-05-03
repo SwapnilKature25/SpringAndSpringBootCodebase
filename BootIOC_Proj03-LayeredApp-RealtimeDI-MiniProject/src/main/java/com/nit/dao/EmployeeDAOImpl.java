@@ -17,7 +17,8 @@ import com.nit.model.Employee;
 @Repository("empDAO")
 public class EmployeeDAOImpl implements IEmployeeDAO {
 
-	private static final String GET_EMPS_BY_DESG="Select empno,ename,job,sal,deptno from SpringEmp where Job IN(?,?,?) order by job";
+	private static final String GET_EMPS_BY_DESG="Select EMPNO,ENAME,JOB,SAL,DEPTNO from Emp where JOB IN(?,?,?) order by JOB";
+	private static final String INSERT_EMP_QUERY="INSERT INTO EMP (EMPNO,ENAME,JOB,SAL,DEPTNO) VALUES(EMP_SEQ.NEXTVAL,?,?,?,?)";   // we have taken support of sequences to insert the value
 	
 	@Autowired
 	private DataSource ds;
@@ -62,18 +63,52 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 		}//try1
 		catch(SQLException e)
 		{
-			e.printStackTrace();
+//			e.printStackTrace();
 			throw e;  // Exception rethrowing
 		}
 		
 		catch(Exception e)
 		{
-			e.printStackTrace();
+//			e.printStackTrace();
 			throw e;
 		}
 		 
 		return list;
 	} // method
+
+
+
+	@Override
+	public int insertEmployee(Employee emp) throws Exception {
+		int result=0;
+		try(
+			// get pooled con obj
+			Connection con=ds.getConnection();
+			// create PreparedStatement object
+			PreparedStatement ps=con.prepareStatement(INSERT_EMP_QUERY);				
+		){
+			// set values to Query params
+			ps.setString(1, emp.getENme());
+			ps.setString(2, emp.getDesg());
+			ps.setDouble(3, emp.getSalary());
+			ps.setInt(4, emp.getDeptNo());
+			
+			// execute the SQL query
+			result=ps.executeUpdate();
+			return result;
+			
+ 		}
+		catch(SQLException e)
+		{
+//			e.printStackTrace();
+			throw e;
+		}
+		catch(Exception e)
+		{
+//			e.printStackTrace();    // if we don't put this then we don't get any elaborated messages
+			throw e;
+		}
+	}
 	
 	
 
